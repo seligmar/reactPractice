@@ -1,1 +1,16 @@
 nifty things to remember about react! super missing my classmates <3
+
+*there wasnt always "create react app" and it used to take the whole day 
+*node_modules can be deleted to save space and then reinstalled 
+*they can also be copy-pasted into a project for off-line work 
+
+*two libraries are imported for react 
+*these libraries divide responsibilities 
+*react is the virtual representation of the DOM 
+*ReactDom puts react on the DOM (platform library)
+**** this allows react library to be used across multiple platforms eg react native
+**** can also be put on mobile phone, CLI, virtual reality (react 360)
+**** all because the core of react has been abstracted out 
+
+** <App /> === App() -- components are just functions with returns 
+** react then grabs these components and puts them on the DOM
